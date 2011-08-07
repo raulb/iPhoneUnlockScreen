@@ -1,0 +1,35 @@
+body { background-image:url(../images/iphone-bg.png); background-repeat:no-repeat; background-color:#25262b; padding:0; margin:0; font-family:Arial; color:white;}
+h1,h2,h3,h4 {margin:0;}
+a { outline:none; color:#CCC;}
+a:hover {color:#B3B3B3;}
+p { padding:0; margin:0; }
+img { border:0; }
+
+#iphone-scrollcontainer { height:461px; width:320px; position:absolute; top:140px; left:40px; background-color:#000000; }
+
+#iphone-inside { overflow: hidden; height:100%; width:100%; background-image:url(../images/background.jpg); }
+#unlock-top { position: relative; height:95px; background-image:url(../images/lock-top.png); }
+#unlock-spacer { height:272px; /* Total height = 461px - 95px (top) - 94px (bottom) */ }
+#unlock-bottom { position: relative; height:94px; background-image:url(../images/lock-bottom.png); }
+#slide-to-unlock {  position: absolute; z-index: 1; top: 0; left: 0; width: 100%; height:94px; background-image:url(../images/slide-to-unlock.gif); }
+#unlock-slider-wrapper { padding-left:22px; padding-top:23px; }
+#unlock-slider { width:205px; height:50px; }
+
+#unlock-handle, .ui-slider-handle{ height: 50px; width: 72px; background-image: url(../images/lock-slider.png); position: absolute; z-index: 10; top: 0px; left: 0; margin-left:-38px;}
+
+.time { text-align:center; color:#FFFFFF; font-family:Georgia, Times, serif; font-size:45px; padding:6px 0; }
+.date { text-align:center; color:#FFFFFF; font-family:Georgia, Times, serif; font-size:12px; }
+
+/* Used by the jQuery slider */
+.ui-slider { position: relative; background-repeat: no-repeat; background-position: center center; left:38px;}
+
+/*Extra-information*/
+
+.information {float:left; margin-top:50px; margin-left:445px;}
+h1,h3,h4 {float:left; width:100%;}
+h1 {font:bold 42px Arial;}
+h3 {font:bold 28px Arial; margin-top:40px; }
+h4, a {font:normal 22px Arial; margin:0;}
+ul {margin-left:30px; }
+ul,li {float:left; width:100%; margin:0;}
+li {margin-top:20px; }
