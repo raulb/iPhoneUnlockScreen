@@ -10,7 +10,7 @@
       "required": true
     },
     "RAILS_ENV": {
-      "required": true
+      "required": false
     },
     "RAILS_SERVE_STATIC_FILES": {
       "required": true
